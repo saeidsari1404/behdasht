@@ -42,13 +42,16 @@ if (!empty($province) && !empty($city)) {
 </div>
 
 <div class="containerToolse">
+    
+    <!-- <div class="option-box">
+    <img src="../assets/img/svg/persistence.svg" class="fa fa-heart"  alt="پایش" width="130" height="170">
+    <span class="option-title">پایش</span>
+    </div>
+    -->
+
     <div class="option-box">
         <img src="../assets/img/toolse/persistence.png" alt="پایش" class="option-icon">
-        <span class="option-title">پایش</span>
-    </div>
-    <div class="option-box">
-        <img src="../assets/img/tools/infrastructure.png" alt="زیر ساخت" class="option-icon" loading="lazy">
-        <span class="option-title">زیر ساخت</span>
+        <span class="option-title"> پایش</span>
     </div>
     <div class="option-box">
         <img src="../assets/img/toolse/infrastructure.png" alt="زیر ساخت" class="option-icon">

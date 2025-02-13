@@ -250,8 +250,8 @@ select:focus {
 .form-containerSeletedOstan {
     text-align: center;
     max-width: 30%;
-    margin-top: 15px;
-    margin-bottom: 60px;
+    margin-top: 5px;
+    margin-bottom: 10px;
     margin-right: 35%;
     padding: 5px;
     background-color: white;
@@ -297,7 +297,7 @@ align-items: center;
     display: flex;
     flex-wrap: wrap; /* استفاده از wrap برای قرار دادن گزینه‌ها در خطوط مختلف */
     justify-content: flex-start;
-    gap: 20px; /* فاصله بین باکس‌ها */
+    gap: 40px; /* فاصله بین باکس‌ها */
     padding: 50px;
     background-color: white;
     border-radius: 50px;
@@ -313,7 +313,7 @@ align-items: center;
     align-items: center;
     justify-content: center;
     width: 180px; /* عرض هر باکس */
-    height: 140px;
+    height: 160px;
     padding: 30px;
     background-color:#b0d0b4;
     border-radius: 20px;
@@ -322,16 +322,16 @@ align-items: center;
     cursor: pointer;
 }
 .option-icon {
-    width: 80px; /* سایز تصویر */
-    height: 80px; /* ارتفاع تصویر */
-   margin: 15px; /* فاصله از متن */
+    width:120px; /* سایز تصویر */
+    height: 150px; /* ارتفاع تصویر */
+   margin: 10px; /* فاصله از متن */
     vertical-align: middle; /* تراز عمودی تصویر */
 }
 
-
 .option-box:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    background-color: #5e9c6a; /* تغییر رنگ پس‌زمینه هنگام هاور */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* تغییر سایه هنگام هاور */
 }
 
 /* استایل آیکون‌ها */
@@ -348,4 +348,14 @@ align-items: center;
     font-weight: bold;
     text-align: center;
 }
+.option-box svg {
+    width: 40px;
+    height: 40px;
+    fill: #4CAF50; /* رنگ آیکون */
+    border-radius: 50%; /* گرد کردن آیکون */
+    transition: transform 0.3s ease;
+}
 
+.option-box:hover svg {
+    transform: rotate(360deg); /* چرخش آیکون هنگام هاور */
+}
